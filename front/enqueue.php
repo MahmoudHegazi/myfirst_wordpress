@@ -25,7 +25,7 @@
     wp_enqueue_style ( 'ju_custom' );
 
 
-    wp_register_script( 'ju_plugins', $uri . 'assets/js/plugins.js', [], false, true );
+    wp_register_script( 'ju_plugins', $uri . 'assets/js/plugins.js', [], NULL, true );
 
 
     wp_enqueue_script( 'ju_plugins' );
